@@ -1,16 +1,62 @@
 body {
-	background-color: DarkCyan;
+	background-color: Blue;
 }
+
 nav {
-	background-color: orange;
+	background-color: pink;
+	height: 100px;
 }
+
+nav li{
+	float: left;
+	list-style-type: none;
+	margin: 5px 15px 0 15px;
+	font: "Arial";
+	cursor: pointer;
+}
+
+nav li:hover{
+	color: white;
+}
+
+main {
+	width: 70%;
+	float: left;
+}
+
+aside {
+	width: 30%;
+	float: right;
+}
+
 footer {
 	background-color: #000000;
 	color: #ffffff;
 	text-align: center;
+	clear: both;
 }
+
 .wrapper {
 	background-color: #ffffff;
 	width: 90%;
 	margin: 0 auto;
 }
+
+.hero {
+	width: 100%;
+	overflow: hidden;
+}
+
+h1, h2, h3 {
+	color: Crimson;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 2.0em; 
+} 
+
+/* em relative to default*/
