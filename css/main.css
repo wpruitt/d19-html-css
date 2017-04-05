@@ -1,0 +1,16 @@
+body {
+	background-color: DarkCyan;
+}
+nav {
+	background-color: orange;
+}
+footer {
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+}
+.wrapper {
+	background-color: #ffffff;
+	width: 90%;
+	margin: 0 auto;
+}
