@@ -1,9 +1,13 @@
 body {
-	background-color: DarkCyan;
+	background-color: Blue;
 }
 
 nav {
+<<<<<<< HEAD
 	background-color: orange;
+=======
+	background-color: pink;
+>>>>>>> 63091f0f888982db7fb154ec06a6b0aab8215676
 	height: 100px;
 }
 
